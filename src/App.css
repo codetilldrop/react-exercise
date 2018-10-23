@@ -2,9 +2,7 @@
   background-color: #282c34;
   min-height: 15vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -14,8 +12,8 @@
   min-height: 10vh;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: stretch;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -29,4 +27,17 @@
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 0 auto;
+}
+
+.table {
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td{
+  padding: 0.5%;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
 }
